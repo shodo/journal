@@ -1,0 +1,134 @@
+html, body
+{
+    height: 100%;
+}
+
+body {
+    background-color: #232425;
+    color: #a9a9b3;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #1b1c1d;
+    min-height: 80px;
+    max-height: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+a {
+    color: #a9a9b3;
+}
+
+.inner-header {
+    min-height: 80px;
+    line-height: 80px;
+    max-width: 800px;
+    min-width: 800px;
+    margin:0 auto;
+}
+
+.logo {
+    display: inline-block;
+    font-size: larger;
+    font-weight: bold;
+    font-family: monospace, monospace;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+main {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.inner-main {
+    max-width: 800px;
+    min-width: 800px;
+    margin:0 auto;
+}
+
+.post-title h1 {
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+
+.post-title a {
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+footer {
+    min-width: 100%;
+    position:fixed;
+    bottom:0;
+}
+
+.inner-footer {
+    max-width: 800px;
+    min-width: 800px;
+    margin:0 auto;
+    text-align: center;
+}
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
+    .inner-main, .inner-header, .inner-footer {
+        max-width: 100%;
+        min-width: 100%;
+    }
+  }
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-display: auto;
+    font-weight: 400;
+    src: url("../fonts/Inter-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: italic;
+    font-display: auto;
+    font-weight: 400;
+    src: url("../fonts/Inter-Italic.ttf");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-display: auto;
+    font-weight: 600;
+    src: url("../fonts/Inter-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: italic;
+    font-display: auto;
+    font-weight: 600;
+    src: url("../fonts/Inter-MediumItalic.ttf");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-display: auto;
+    font-weight: 800;
+    src: url("../fonts/Inter-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: italic;
+    font-display: auto;
+    font-weight: 800;
+    src: url("../fonts/Inter-BoldItalic.ttf");
+}
